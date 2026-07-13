@@ -1,0 +1,233 @@
+/* Counter Widget CSS */
+
+/* Default alignments that will be overridden by controls */
+
+
+
+/* Title styling - flex enabled for alignment controls */
+
+/* Ensure counter content doesn't shrink */
+
+/* Equal width distribution for horizontal layouts */
+
+/* Alternative approach - apply to all potential horizontal layouts */
+
+/* Ensure counter content maintains flex display in all layouts */
+
+
+/* Responsive equal width distribution */
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+}
+
+/* Navigation Menu CSS */
+
+/* Alignemnt CSS */
+
+/* Alignment CSS ends */
+
+/*  Horizontal Menu */
+
+/* Icons CSS */
+/* Icon CSS ends */
+/* Submenus */
+
+/* Common Animation CSS */
+
+.hfe-nav-menu .menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-nav-menu .menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after {
+  opacity: 0; }
+
+/* Double Line / Underline / Overline Style */
+
+.hfe-pointer__double-line.hfe-animation__grow .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__double-line.hfe-animation__grow .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__underline.hfe-animation__grow .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__underline.hfe-animation__grow .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__overline.hfe-animation__grow .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__overline.hfe-animation__grow .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after {
+    height: 0;
+    width: 0;
+    left: 50%;
+}
+
+.hfe-pointer__double-line.hfe-animation__drop-out .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__underline.hfe-animation__drop-out .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__overline.hfe-animation__drop-out .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    top: 10px;
+}
+
+.hfe-pointer__double-line.hfe-animation__drop-out .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__underline.hfe-animation__drop-out .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__overline.hfe-animation__drop-out .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after {
+    bottom: 10px;
+}
+
+.hfe-pointer__double-line.hfe-animation__drop-in .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__underline.hfe-animation__drop-in .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__overline.hfe-animation__drop-in .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    top: -10px;
+}
+
+.hfe-pointer__double-line.hfe-animation__drop-in .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__underline.hfe-animation__drop-in .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__overline.hfe-animation__drop-in .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after {
+    bottom: -10px;
+}
+
+.hfe-pointer__double-line.hfe-animation__slide .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__overline.hfe-animation__slide .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    width: 10px;
+    left: -20px;
+}
+
+.hfe-pointer__double-line.hfe-animation__slide .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__underline.hfe-animation__slide .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after {
+    width: 10px;
+    left: -webkit-calc( 100% + 20px);
+    left: calc( 100% + 20px);
+}
+
+
+/* Framed Style */
+
+.hfe-pointer__framed.hfe-animation__grow .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    -webkit-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    transform: scale(0.75);
+}
+
+.hfe-pointer__framed.hfe-animation__shrink .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    -webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25);
+}
+
+/* Background Style */
+
+.hfe-pointer__background.hfe-animation__shrink .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.hfe-pointer__background.hfe-animation__sweep-left .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    left: 100%;
+}
+
+.hfe-pointer__background.hfe-animation__sweep-right .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    right: 100%;
+}
+
+.hfe-pointer__background.hfe-animation__sweep-up .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    top: 100%;
+}
+
+.hfe-pointer__background.hfe-animation__sweep-down .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    bottom: 100%;
+}
+
+.hfe-pointer__background.hfe-animation__shutter-out-vertical .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    bottom: 50%;
+    top: 50%;
+}
+
+.hfe-pointer__background.hfe-animation__shutter-out-horizontal .menu-item.parent a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    right: 50%;
+    left: 50%;
+}
+
+/* Text Style */
+
+/* No link hover effect to last menu item */
+
+/* ===========================================================
+ *  Flyout Location
+ * ======================================================== */
+
+/* ===========================================================
+ *  Flyout Container
+ * ======================================================== */
+/* iOS fix */
+@media (max-width:1024px) {
+}
+
+/* Dropdown animation CSS */
+
+/* Tablet */
+@media only screen and ( max-width: 1024px ) {
+
+    /* Effect 1: Fade in and scale up */
+    
+    /*.hfe-nav-menu__breakpoint-tablet .hfe-nav-menu__layout-horizontal .hfe-nav-menu ul.sub-menu ul.sub-menu li a{
+        border-left: 16px solid transparent;
+    }*/
+}
+
+/* Mobile */
+@media only screen and ( max-width: 767px ) {
+
+    /* Effect 1: Fade in and scale up */
+
+    /* Effect 2: Slide from the right */
+
+    /* Effect 3: Slide from the bottom */
+}
+
+/* Icon common CSS */
+
+/* Icon Svg */
+
+/* Menu Cart CSS */
+
+/* Default skin for cart*/
+
+/*Search Box CSS*/
+/*search icon toggle css*/
+
+/*-------Navigation menu active parent---------*/
+.hfe-pointer__double-line.hfe-animation__slide .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after,.hfe-pointer__double-line.hfe-animation__slide .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__underline.hfe-animation__slide .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after,
+ .hfe-pointer__overline.hfe-animation__slide .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__overline.hfe-animation__fade .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before  {
+    width: 100%;
+    left: 0;
+    opacity:1;
+}
+
+.hfe-pointer__double-line.hfe-animation__drop-out .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__underline.hfe-animation__drop-out .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__overline.hfe-animation__drop-out .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after,.hfe-pointer__double-line.hfe-animation__drop-in .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__underline.hfe-animation__drop-in .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__overline.hfe-animation__drop-in .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after {
+    bottom: 0px;
+    opacity:1;
+}
+.hfe-pointer__double-line.hfe-animation__drop-out .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__underline.hfe-animation__drop-out .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__overline.hfe-animation__drop-out .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__double-line.hfe-animation__drop-in .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__underline.hfe-animation__drop-in .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__overline.hfe-animation__drop-in .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    top: 0px;
+    opacity: 1;
+}
+
+.hfe-pointer__double-line.hfe-animation__grow .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__double-line.hfe-animation__grow .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__underline.hfe-animation__grow .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__underline.hfe-animation__grow .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__overline.hfe-animation__grow .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__overline.hfe-animation__grow .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after {
+    height: 3px;
+    width: 100%;
+    left: 0;
+    opacity: 1;
+}
+
+.hfe-pointer__framed.hfe-animation__grow .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__framed.hfe-animation__shrink .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.hfe-pointer__framed.hfe-animation__fade .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__framed.hfe-animation__draw .menu-item.parent.current-menu-item a.hfe-menu-item:before, .hfe-pointer__underline.hfe-animation__fade .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after, .hfe-pointer__double-line.hfe-animation__fade .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, .hfe-pointer__double-line.hfe-animation__fade .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after {
+    opacity:1;
+}
+
+.hfe-pointer__framed.hfe-animation__corners .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, 
+.hfe-pointer__framed.hfe-animation__corners .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after,
+.hfe-pointer__framed.hfe-animation__draw .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):before, 
+.hfe-pointer__framed.hfe-animation__draw .menu-item.parent.current-menu-item a.hfe-menu-item:not(:hover):not(:focus):not(.current-menu-item):not(.highlighted):after {
+    border-width:3px;
+    width:100%;
+    opacity:1;
+    height:100%;
+}
+
+/* Scroll to top CSS */
+/* Breadcrumbs CSS */
+
+/* Post Info CSS */
+
+
+/* Info Card CSS */
+
+/* Basic Posts Widget CSS - Only essential structure, no styling */

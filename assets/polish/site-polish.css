@@ -1,0 +1,219 @@
+/* TOPFLY — polish layer per le pagine mirror Elementor (2026-07-06).
+   Vale a TUTTE le viewport (desktop/tablet/mobile: nessuna media query,
+   le regole si applicano ovunque — su mobile c'era solo piu' da
+   correggere, ma il polish e' del sito intero). Additivo, non un
+   redesign: le pagine mirror restano quelle, qui si corregge solo cio'
+   che era rotto/incoerente. Iniettato su tutte le pagine mirror dal
+   build (vedi scripts/normalize-shared-chrome.mjs).
+
+   Regola guida: font-WEIGHT normalizzato ovunque (era casuale, causava le
+   inversioni di gerarchia). Font-SIZE delle pagine lasciato quasi intatto
+   (gia' ragionevolmente coerente: H1 sempre 36px) per non rischiare
+   reflow imprevisti su 46 pagine uniche mai riviste una per una. */
+
+/* ---------------------------------------------------------------------
+   1) Gerarchia tipografica — solo peso, non dimensione
+   --------------------------------------------------------------------- */
+
+/* selettore su tag nudo (non solo .elementor-heading-title): alcune pagine
+   mirror usano un template diverso (es. simboli-del-tachigrafo...) con h1/h2/h3
+   senza le classi Elementor standard. */
+h1 {
+	font-weight: 700 !important;
+}
+
+h2 {
+	font-weight: 600 !important;
+}
+
+h3 {
+	font-weight: 600 !important;
+}
+
+/* ---------------------------------------------------------------------
+   2) Card (image-box / icon-box): la maggior parte non ha styling sul
+   contenitore (nessun border-radius/ombra/sfondo), quindi qui e' additivo.
+   ECCEZIONE trovata (2026-07-06, pagina /login/): 3 box (element-id
+   ed9b05c/b783122/80dafc4) hanno il vero sfondo scuro (#a3a3a3) sul
+   `.elementor-widget-container` ANTENATO, con testo bianco pensato per
+   quello sfondo — il nostro background chiaro sul figlio lo copriva,
+   rendendo il testo bianco invisibile. Esclusi esplicitamente (stesso
+   controllo fatto su tutte le altre occorrenze di sfondo scuro sito-
+   wide: le uniche altre 6, in home, non usano affatto image/icon-box-
+   wrapper — quindi non a rischio).
+   --------------------------------------------------------------------- */
+
+.elementor-image-box-wrapper,
+.elementor-icon-box-wrapper {
+	padding: 28px 24px;
+	border-radius: 20px;
+	background: #fbf9fc;
+	box-shadow: 0 10px 30px rgba(53, 19, 79, 0.08);
+}
+
+.elementor-element-ed9b05c .elementor-icon-box-wrapper,
+.elementor-element-b783122 .elementor-icon-box-wrapper,
+.elementor-element-80dafc4 .elementor-icon-box-wrapper {
+	background: transparent;
+	box-shadow: none;
+}
+
+.elementor-image-box-img img,
+.elementor-icon-box-icon img {
+	border-radius: 14px;
+}
+
+/* Titolo di card: mai piu' prominente dei titoli di pagina (H1/H2).
+   Trovati casi reali a 25px/500 e 16px/600 — qui una taglia e un peso
+   fissi, uguali su tutte le card del sito. */
+.elementor-image-box-title,
+.elementor-icon-box-title {
+	font-size: 19px !important;
+	font-weight: 600 !important;
+	line-height: 1.35 !important;
+}
+
+.elementor-image-box-description,
+.elementor-icon-box-description {
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	line-height: 1.6 !important;
+}
+
+/* ---------------------------------------------------------------------
+   3) Bottoni — border-radius/padding variavano 90px vs 7px, e anche tra
+   due bottoni della stessa pagina. Forma a pillola: stessa scelta gia'
+   in uso nei componenti nuovi (DemoPriceWizard.astro), quindi coerenza
+   con la direzione attuale del brand, non un'invenzione.
+   --------------------------------------------------------------------- */
+
+.elementor-button {
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	min-height: 48px !important;
+	padding: 14px 28px !important;
+	border-radius: 999px !important;
+}
+
+/* ---------------------------------------------------------------------
+   4) Fix overflow: .feature_content p troncava un paragrafo libero a 3
+   righe con -webkit-line-clamp (trovato in cs_multistep.css) — corretto
+   per titoli brevi di card, rischioso su descrizioni piu' lunghe (alcuni
+   testi reali sono gia' a 150-180 caratteri, al limite del taglio).
+   --------------------------------------------------------------------- */
+
+.feature_content p {
+	display: block !important;
+	overflow: visible !important;
+	-webkit-line-clamp: unset !important;
+}
+
+/* ---------------------------------------------------------------------
+   5) Home — badge decorativo del hero (icona volante, elementor-1351 =
+   ID Elementor della sola home) finiva sopra la barra di ricerca del
+   pannello mockup nell'intervallo 768-1024px. Il CSS Elementor originale
+   riposiziona il badge solo a due soglie (<=1366px e <=767px): tra 1024px
+   (dove le due colonne dell'hero si impilano, soglia standard Elementor)
+   e 1366px il badge resta con l'offset "affiancato" (top:31px), che pero'
+   ora e' relativo alla colonna impilata e atterra sull'intestazione del
+   pannello invece che sullo sfondo colorato sopra di esso. Qui si sposta
+   solo verticalmente, verso l'alto, quanto basta per tornare sopra il
+   pannello — stessa posizione orizzontale, nessun'altra modifica.
+   --------------------------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.elementor-1351 .elementor-element.elementor-element-b94bb00 {
+		top: -30px !important;
+	}
+}
+
+/* ---------------------------------------------------------------------
+   6) Articoli — colonna di testo troppo stretta su desktop (>=1025px).
+   Template a due colonne 50/50 (testo + immagine) ripetuto per ogni
+   sezione dell'articolo: a 940px di contenitore la colonna di testo
+   rende solo ~446px (~48 caratteri/riga a 18px), un "tunnel" di testo
+   con meta' schermo vuota nella colonna immagine. Ribilanciato a
+   66/34: la colonna di testo guadagna respiro (~68-70 caratteri/riga),
+   l'immagine resta proporzionata invece di essere sprecata a meta'
+   pagina.
+   --------------------------------------------------------------------- */
+@media (min-width: 1025px) {
+	.post-editorial-main .elementor-container > .elementor-column.elementor-col-50:has(.case_main_content) {
+		width: 66% !important;
+	}
+
+	.post-editorial-main .elementor-container > .elementor-column.elementor-col-50:not(:has(.case_main_content)) {
+		width: 34% !important;
+	}
+}
+
+/* ---------------------------------------------------------------------
+   7) Articoli — stesse colonne del punto 6, ma nell'intervallo
+   768-1024px (scansione v2, 2026-07-06): qui Elementor imposta
+   flex-direction:column-reverse (le impila, correttamente) ma SENZA
+   forzare width:100% sulle colonne, che restano al 50% dichiarato e
+   vengono centrate (align-items:center) — testo in una striscia stretta
+   con meta' larghezza vuota da entrambi i lati, immagine sotto uguale.
+   A mobile (<=767px) Elementor lo fa gia' da solo (regola interna legata
+   alla classe elementor-reverse-mobile), qui replichiamo lo stesso
+   risultato per la fascia tablet che ne era rimasta priva.
+   --------------------------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.post-editorial-main .elementor-container > .elementor-column.elementor-col-50 {
+		width: 100% !important;
+	}
+}
+
+/* ---------------------------------------------------------------------
+   8) Case-study — righe troppo lunghe su desktop (scansione v2,
+   2026-07-06): colonna singola a piena larghezza (nessuna seconda
+   colonna a fianco, a differenza degli articoli), fino a 123
+   caratteri/riga a 1440px. Limite di larghezza al testo, allineato a
+   sinistra come il resto del sito (nessuna ricentratura) — lascia uno
+   spazio bianco a destra, scelta editoriale comune, non un difetto.
+   Scoping esplicito a .topfly-recovered-body--case-study: le classi
+   .case_inner_box/.case_inner_page_content sono condivise con altri
+   template (253 pagine), qui si vuole toccare solo i 23 case-study.
+   --------------------------------------------------------------------- */
+@media (min-width: 1025px) {
+	.topfly-recovered-body--case-study .case_inner_page_content {
+		max-width: 720px !important;
+	}
+}
+
+/* ---------------------------------------------------------------------
+   9) Home — rimossa su richiesta owner l'ombreggiatura delle card e
+   delle frecce del carosello "Ultime Notizie" (.tf-news-card/.tf-news-
+   prev/.tf-news-next, home-ux-refresh.css). Scoping mirato solo alle
+   classi -news-*: .tf-carousel-arrow e' condivisa anche dal carosello
+   recensioni (.tf-reviews-prev/.tf-reviews-next), che NON va toccato.
+   --------------------------------------------------------------------- */
+.tf-news-card,
+.tf-news-prev,
+.tf-news-next {
+	box-shadow: none !important;
+}
+
+/* ---------------------------------------------------------------------
+   10) Login — le 3 card "scegli piattaforma" prendevano cosi' tanto
+   spazio verticale (padding 24px + titolo margin-block-end 24px + la
+   card centrale con margin:44px 0 in piu') che sull'altezza di un
+   monitor normale se ne vedeva a malapena una e mezza senza scorrere —
+   controsenso per una pagina il cui unico scopo e' la scelta rapida
+   della piattaforma. Compattato senza cambiare contenuto o leggibilita'.
+   --------------------------------------------------------------------- */
+.elementor-element-ed9b05c > .elementor-widget-container,
+.elementor-element-b783122 > .elementor-widget-container,
+.elementor-element-80dafc4 > .elementor-widget-container {
+	padding: 16px 20px !important;
+}
+
+.elementor-element-b783122 > .elementor-widget-container {
+	margin: 14px 0 !important;
+}
+
+.elementor-element-ed9b05c .elementor-icon-box-title,
+.elementor-element-b783122 .elementor-icon-box-title,
+.elementor-element-80dafc4 .elementor-icon-box-title {
+	margin-block-end: 8px !important;
+}

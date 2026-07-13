@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TOPFLY GPS Solutions//Fiere//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fiera-translogistica-2026@topflysolutions.com
+DTSTAMP:20260908T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260911
+SUMMARY:TOPFLY a TransLogistica Romania 2026
+DESCRIPTION:8-10 settembre 2026 — ROMEXPO - Bucharest - Romania — https://topflysolutions.com/events/translogistica/
+LOCATION:ROMEXPO - Bucharest - Romania
+URL:https://topflysolutions.com/events/translogistica/
+END:VEVENT
+END:VCALENDAR

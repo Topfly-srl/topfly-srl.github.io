@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TOPFLY GPS Solutions//Fiere//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fiera-ecomondo-2026@topflysolutions.com
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261107
+SUMMARY:TOPFLY a Ecomondo 2026
+DESCRIPTION:3-6 novembre 2026 — Quartiere fieristico di Rimini — https://topflysolutions.com/events/ecomondo/
+LOCATION:Quartiere fieristico di Rimini
+URL:https://topflysolutions.com/events/ecomondo/
+END:VEVENT
+END:VCALENDAR

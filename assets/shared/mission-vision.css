@@ -1,0 +1,135 @@
+/* Mission/Vision condiviso home <-> /la-nostra-azienda/ (2026-07-07).
+   Estratto AUTOMATICO delle sole regole .tf-mv-* (piu' i token --tf- che
+   usano) da public/assets/home/home-ux-refresh.css. Prima qui veniva
+   linkato l'INTERO home-ux-refresh.css: portava con se' anche regole
+   pensate solo per la home (es. scroll-behavior:smooth su html, offset
+   WhatsApp, menu toggle) — effetti collaterali reali su una pagina che
+   non c'entra. Se si tocca il trattamento Mission/Vision nella home,
+   rigenerare/riallineare anche questo file (stessa regola gia' scritta
+   in mission-vision-shim.js). */
+
+
+:root {
+  --tf-fs-card: clamp(1rem, .95rem + .35vw, 1.25rem);
+  --tf-fs-card-body: clamp(.875rem, .84rem + .25vw, 1rem);
+  --tf-fw-body: 400;
+  --tf-fw-card: 600;
+  --tf-lh-body: 1.6;
+  --tf-lh-card: 1.26;
+  --tf-sector-refresh-ink: #1f2430;
+  --tf-sector-refresh-line: rgba(31, 36, 48, 0.12);
+  --tf-sector-refresh-muted: #667085;
+  --tf-sector-refresh-purple: #3a174f;
+  --tf-sector-refresh-red: #c91522;
+}
+
+
+.tf-mv-js .tf-mv-originals-hidden {
+
+  display: none !important;
+}
+
+.tf-mv-js .tf-mv-split {
+
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 16px;
+  width: min(1120px, calc(100% - 40px));
+  margin: 24px auto 0;
+}
+
+.tf-mv-card {
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--tf-sector-refresh-line);
+  border-radius: 14px;
+  padding: 26px 24px 24px;
+}
+
+.tf-mv-card::before {
+
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--tf-sector-refresh-red), var(--tf-sector-refresh-purple));
+}
+
+.tf-mv-media {
+
+  display: block;
+  aspect-ratio: 16 / 9;
+  margin: 4px 0 18px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.tf-mv-media img {
+
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tf-mv-heading {
+
+  margin: 0 0 10px;
+  color: var(--tf-sector-refresh-ink);
+  font-size: var(--tf-fs-card);
+  font-weight: var(--tf-fw-card);
+  line-height: var(--tf-lh-card);
+}
+
+.tf-mv-text {
+
+  margin: 0;
+  color: var(--tf-sector-refresh-muted);
+  font-size: var(--tf-fs-card-body);
+  font-weight: var(--tf-fw-body);
+  line-height: 1.65;
+}
+
+.tf-mv-text + .tf-mv-text {
+
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .tf-mv-js .tf-mv-split {
+
+    grid-template-columns: 1fr;
+    gap: 12px;
+    width: min(100% - 28px, 560px);
+    margin-top: 18px;
+  }
+  .tf-mv-card {
+
+    padding: 22px 18px 20px;
+  }
+  .tf-mv-media {
+
+    aspect-ratio: 16 / 10;
+    margin-bottom: 14px;
+  }
+}
+
+.tf-type-js .custom_cases .cases_content p,
+.tf-type-js .cases_slider .cases_content p,
+.tf-type-js .tf-review-quote,
+.tf-type-js .tf-news-card__excerpt,
+.tf-type-js .tf-news-card__body p,
+.tf-type-js .tf-mv-text {
+
+  font-size: var(--tf-fs-card-body) !important;
+  font-weight: var(--tf-fw-body) !important;
+  line-height: var(--tf-lh-body) !important;
+}

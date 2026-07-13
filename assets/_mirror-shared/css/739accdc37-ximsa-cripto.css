@@ -1,0 +1,1986 @@
+
+/* Theme Color */
+
+:root {
+	
+	/* #fe6761 in decimal RGB */
+  --main-color: rgb(254,103,97);
+  
+  /* #fe6761 in decimal RGBA */
+  --main-color-rgba: rgba(254,103,97,0.20);
+  
+  /* #0057fc in decimal RGB */
+  --color-two: rgb(0,87,252);
+  
+  /* #0057fc in decimal RGB */
+  --color-two-rgba: rgb(0,87,252,0.10);
+  
+  /* #edf3ff in decimal RGB */
+  --color-three: rgb(237,243,255);
+  
+  /* #7a8c94 in decimal RGB */
+  --color-four: rgb(122,140,148);
+  
+  /* #faf9fa in decimal RGB */
+  --color-five: rgb(250,249,250);
+  
+  /* #ff8800 in decimal RGB */
+  --color-six: rgb(255,136,0);
+  
+  /* #9600ff in decimal RGB */
+  --color-seven: rgb(150,0,255);
+  
+  /* #fc00d0 in decimal RGB */
+  --color-eight: rgb(252,0,208);
+  
+  /* #00c6ff in decimal RGB */
+  --color-nine: rgb(0,198,255);
+  
+  /* #cfd2d5 in decimal RGB */
+  --color-ten: rgb(0,198,255);
+  
+  /* #dae7ff in decimal RGB */
+  --color-ten: rgb(207,210,213);
+  
+  /* #dadcde in decimal RGB */
+  --color-eleven: rgb(207,210,213);
+  
+  /* #050606 in decimal RGB */
+  --color-twelve: rgb(5,6,6);
+  
+  /* #e2e3e4 in decimal RGB */
+  --color-thirteen: rgb(226,227,228);
+  
+  /* #3ecd90 in decimal RGB */
+  --color-fourteen: rgb(62,205,144);
+  
+  /* #f8f9fa in decimal RGB */
+  --color-fifteen: rgb(248,249,250);
+  
+  /* #ff9900 in decimal RGB */
+  --color-sixteen: rgb(255,153,0);
+  
+  /* #fafafa in decimal RGB */
+  --color-seventeen: rgb(250,250,250);
+  
+  /* #2587fe in decimal RGB */
+  --color-eighteen: rgb(37,135,254);
+  
+  /* #e8e9e9 in decimal RGB */
+  --color-nineteen: rgb(232,233,233);
+  
+  /* #d8d9dc in decimal RGB */
+  --color-twenty: rgb(216,217,220);
+  
+  /* #f0f5ff in decimal RGB */
+  --color-twentyone: rgb(240,245,255);
+  
+  /* #00d0fc in decimal RGB */
+  --color-twentytwo: rgb(0,208,252);
+  
+  /* #e9ebeb in decimal RGB */
+  --color-twentythree: rgb(233,235,235);
+  
+  /* #f6f9fb in decimal RGB */
+  --color-twentyfour: rgb(246,249,251);
+  
+  /* #0c253e in decimal RGB */
+  --color-twentyfive: rgb(12,37,62);
+  
+  /* #de35ad in decimal RGB */
+  --color-twentysix: rgb(222,53,173);
+  
+  /* #fe506c in decimal RGB */
+  --color-twentyseven: rgb(254,80,108);
+  
+  /* #010615 in decimal RGB */
+  --color-twentyeight: rgb(1,6,21);
+  
+  /* #fc9776 in decimal RGB */
+  --color-twentynine: rgb(252,151,181);
+  
+  /* #071028 in decimal RGB */
+  --color-thirty: rgb(7,16,40);
+  
+  /* #b2b2b2 in decimal RGB */
+  --color-thirtyone: rgb(178,178,178);
+  
+  /* #ff0101 in decimal RGB */
+  --color-thirtytwo: rgb(255,1,1);
+  
+  /* #007dfc in decimal RGB */
+  --color-thirtythree: rgb(0,125,252);
+  
+  /* #8e9ecd in decimal RGB */
+  --color-thirtyfour: rgb(142,158,205);
+  
+  /* #db35b2 in decimal RGB */
+  --color-thirtyfive: rgb(219,53,178);
+  
+  /* #f63f78 in decimal RGB */
+  --color-thirtysix: rgb(246,63,120);
+  
+  /* #fc9776 in decimal RGB */
+  --color-thirtyseven: rgb(252,151,118);
+  
+  /* #27cc64 in decimal RGB */
+  --color-thirtyeight: rgb(39,204,100);
+  
+  /* #031a08 in decimal RGB */
+  --color-thirtynine: rgb(3,26,8);
+  --color-thirtynine-rgb: 3,26,8;
+  
+  /* #2d0208 in decimal RGB */
+  --color-fourty: rgb(45,2,8);
+  
+  /* #071b30 in decimal RGB */
+  --color-fourtyone: rgb(7,27,48);
+  
+  /* #013d79 in decimal RGB */
+  --color-fourtytwo: rgb(1,61,121);
+  
+  /* #00040f in decimal RGB */
+  --color-fourtythree: rgb(0,4,15);
+  
+  /* #7f7d9b in decimal RGB */
+  --color-fourtyfour: rgb(127,125,155);
+  
+  /* #c6c5de in decimal RGB */
+  --color-fourtyfive: rgb(198,197,222);
+  
+  /* #051527 in decimal RGB */
+  --color-fourtysix: rgb(5,21,39);
+  
+  
+  
+  /* #ffffff in decimal RGB */
+  --white-color:rgb(255,255,255);
+  
+  /* #ffffff in decimal RGBA */
+  --white-color-rgba:rgb(255,255,255,0.10);
+  
+  /* #000000 in decimal RGB */
+  --black-color:rgb(0,0,0);
+  
+  /* #25373f in decimal RGB */
+  --text-color:rgb(37,55,63);
+  
+  /* #25373f in decimal RGBA */
+  --text-color-rgba:rgb(37,55,63,0.80);
+  
+  /* #25373f Heading Color */
+  --heading-color:rgb(37,55,63);
+  
+  /* #25373f Heading Color */
+  --dark-bg-color:rgb(37,55,63);
+  
+  /* #000404 Heading Color */
+  --dark-color:rgb(0,4,4);
+  
+  /* #25373f Heading Color */
+  --dark-border-color:rgb(37,55,63);
+  
+  /* Fonts Variable */
+  --font-family-Poppins: 'Poppins', sans-serif;
+  
+  --font-family-barlow: 'Barlow', sans-serif;
+  
+  
+/* Heading Fonts */
+  
+  --font-8: 8px;
+  --font-10: 10px;
+  --font-12: 12px;
+  --font-13: 13px;
+  --font-14: 14px;
+  --font-15: 15px;
+  --font-16: 16px;
+  --font-17: 17px;
+  --font-18: 18px;
+  --font-20: 20px;
+  --font-22: 22px;
+  --font-24: 24px;
+  --font-26: 26px;
+  --font-28: 28px;
+  --font-30: 30px;
+  --font-32: 32px;
+  --font-34: 34px;
+  --font-36: 36px;
+  --font-38: 38px;
+  --font-40: 40px;
+  --font-44: 44px;
+  --font-45: 45px;
+  --font-48: 48px;
+  --font-50: 50px;
+  --font-52: 52px;
+  --font-54: 54px;
+  --font-56: 56px;
+  --font-58: 58px;
+  --font-60: 60px;
+  --font-62: 62px;
+  --font-64: 64px;
+  --font-65: 65px;
+  --font-66: 66px;
+  --font-68: 68px;
+  --font-70: 70px;
+  --font-72: 72px;
+  --font-74: 74px;
+  --font-76: 76px;
+  --font-78: 78px;
+  --font-80: 80px;
+  --font-90: 90px;
+  --font-100: 100px;
+  --font-110: 110px;
+  --font-120: 120px;
+  --font-150: 150px;
+  --font-200: 200px;
+  
+  --margin-zero: 0px;
+  
+  /* Margin Left Variables */
+  --margin-left-5: 5px;
+  --margin-left-10: 10px;
+  --margin-left-15: 15px;
+  --margin-left-20: 20px;
+  --margin-left-25: 25px;
+  --margin-left-30: 30px;
+  --margin-left-35: 35px;
+  --margin-left-40: 40px;
+  --margin-left-45: 45px;
+  --margin-left-50: 50px;
+  --margin-left-55: 55px;
+  --margin-left-60: 60px;
+  --margin-left-65: 65px;
+  --margin-left-70: 70px;
+  --margin-left-75: 75px;
+  --margin-left-80: 80px;
+  --margin-left-85: 85px;
+  --margin-left-90: 90px;
+  --margin-left-95: 95px;
+  --margin-left-100: 100px;
+  --margin-left-130: 130px;
+  --margin-left-150: 150px;
+  --margin-left-180: 180px;
+  
+  /* Margin Top Variables */
+  --margin-top-5: 5px;
+  --margin-top-10: 10px;
+  --margin-top-15: 15px;
+  --margin-top-20: 20px;
+  --margin-top-25: 25px;
+  --margin-top-30: 30px;
+  --margin-top-35: 35px;
+  --margin-top-40: 40px;
+  --margin-top-45: 45px;
+  --margin-top-50: 50px;
+  --margin-top-55: 55px;
+  --margin-top-60: 60px;
+  --margin-top-65: 65px;
+  --margin-top-70: 70px;
+  --margin-top-75: 75px;
+  --margin-top-80: 80px;
+  --margin-top-85: 85px;
+  --margin-top-90: 90px;
+  --margin-top-95: 95px;
+  --margin-top-100: 100px;
+  --margin-top-130: 130px;
+  
+  /* Margin Right Variables */
+  --margin-right-5: 5px;
+  --margin-right-10: 10px;
+  --margin-right-15: 15px;
+  --margin-right-20: 20px;
+  --margin-right-25: 25px;
+  --margin-right-30: 30px;
+  --margin-right-35: 35px;
+  --margin-right-40: 40px;
+  --margin-right-45: 45px;
+  --margin-right-50: 50px;
+  --margin-right-55: 55px;
+  --margin-right-60: 60px;
+  --margin-right-65: 65px;
+  --margin-right-70: 70px;
+  --margin-right-75: 75px;
+  --margin-right-80: 80px;
+  --margin-right-85: 85px;
+  --margin-right-90: 90px;
+  --margin-right-95: 95px;
+  --margin-right-100: 100px;
+  
+  /* Margin Bottom Variables */
+  --margin-bottom-5: 5px;
+  --margin-bottom-10: 10px;
+  --margin-bottom-15: 15px;
+  --margin-bottom-20: 20px;
+  --margin-bottom-25: 25px;
+  --margin-bottom-30: 30px;
+  --margin-bottom-35: 35px;
+  --margin-bottom-40: 40px;
+  --margin-bottom-45: 45px;
+  --margin-bottom-50: 50px;
+  --margin-bottom-55: 55px;
+  --margin-bottom-60: 60px;
+  --margin-bottom-65: 65px;
+  --margin-bottom-70: 70px;
+  --margin-bottom-75: 75px;
+  --margin-bottom-80: 80px;
+  --margin-bottom-85: 85px;
+  --margin-bottom-90: 90px;
+  --margin-bottom-95: 95px;
+  --margin-bottom-100: 100px;
+  --margin-bottom-150: 150px;
+  --margin-bottom-200: 200px;
+  
+  
+  --padding-zero: 0px;
+  
+  /* Padding Left Variables */
+  --padding-left-5: 5px;
+  --padding-left-10: 10px;
+  --padding-left-15: 15px;
+  --padding-left-20: 20px;
+  --padding-left-25: 25px;
+  --padding-left-30: 30px;
+  --padding-left-35: 35px;
+  --padding-left-40: 40px;
+  --padding-left-45: 45px;
+  --padding-left-50: 50px;
+  --padding-left-55: 55px;
+  --padding-left-60: 60px;
+  --padding-left-65: 65px;
+  --padding-left-70: 70px;
+  --padding-left-75: 75px;
+  --padding-left-80: 80px;
+  --padding-left-85: 85px;
+  --padding-left-90: 90px;
+  --padding-left-95: 95px;
+  --padding-left-100: 100px;
+  --padding-left-110: 110px;
+  --padding-left-120: 120px;
+  --padding-left-130: 130px;
+  --padding-left-140: 140px;
+  --padding-left-150: 150px;
+  --padding-left-160: 160px;
+  --padding-left-170: 170px;
+  --padding-left-180: 180px;
+  --padding-left-190: 190px;
+  --padding-left-200: 200px;
+  --padding-left-210: 210px;
+  --padding-left-220: 220px;
+  
+  /* Padding Top Variables */
+  --padding-top-5: 5px;
+  --padding-top-10: 10px;
+  --padding-top-15: 15px;
+  --padding-top-20: 20px;
+  --padding-top-25: 25px;
+  --padding-top-30: 30px;
+  --padding-top-35: 35px;
+  --padding-top-40: 40px;
+  --padding-top-45: 45px;
+  --padding-top-50: 50px;
+  --padding-top-55: 55px;
+  --padding-top-60: 60px;
+  --padding-top-65: 65px;
+  --padding-top-70: 70px;
+  --padding-top-75: 75px;
+  --padding-top-80: 80px;
+  --padding-top-85: 85px;
+  --padding-top-90: 90px;
+  --padding-top-95: 95px;
+  --padding-top-100: 100px;
+  --padding-top-110: 110px;
+  --padding-top-120: 120px;
+  --padding-top-130: 130px;
+  --padding-top-140: 140px;
+  --padding-top-150: 150px;
+  
+  /* Padding Right Variables */
+  --padding-right-5: 5px;
+  --padding-right-10: 10px;
+  --padding-right-15: 15px;
+  --padding-right-20: 20px;
+  --padding-right-25: 25px;
+  --padding-right-30: 30px;
+  --padding-right-35: 35px;
+  --padding-right-40: 40px;
+  --padding-right-45: 45px;
+  --padding-right-50: 50px;
+  --padding-right-55: 55px;
+  --padding-right-60: 60px;
+  --padding-right-65: 65px;
+  --padding-right-70: 70px;
+  --padding-right-75: 75px;
+  --padding-right-80: 80px;
+  --padding-right-85: 85px;
+  --padding-right-90: 90px;
+  --padding-right-95: 95px;
+  --padding-right-100: 100px;
+  --padding-right-110: 110px;
+  --padding-right-150: 150px;
+  --padding-right-160: 160px;
+  --padding-right-170: 170px;
+  --padding-right-200: 200px;
+  --padding-right-250: 250px;
+  
+  /* Padding Bottom Variables */
+  --padding-bottom-5: 5px;
+  --padding-bottom-10: 10px;
+  --padding-bottom-15: 15px;
+  --padding-bottom-20: 20px;
+  --padding-bottom-25: 25px;
+  --padding-bottom-30: 30px;
+  --padding-bottom-35: 35px;
+  --padding-bottom-40: 40px;
+  --padding-bottom-45: 45px;
+  --padding-bottom-50: 50px;
+  --padding-bottom-55: 55px;
+  --padding-bottom-60: 60px;
+  --padding-bottom-65: 65px;
+  --padding-bottom-70: 70px;
+  --padding-bottom-75: 75px;
+  --padding-bottom-80: 80px;
+  --padding-bottom-85: 85px;
+  --padding-bottom-90: 90px;
+  --padding-bottom-95: 95px;
+  --padding-bottom-100: 100px;
+  --padding-bottom-150: 150px;
+  --padding-bottom-200: 200px;
+  --padding-bottom-250: 250px;
+  
+}
+.auto-container {
+    position: static;
+    max-width: 1240px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+/* Btn Style Fifrteen */
+
+.btn-style-fifteen{
+	position: relative;
+	display: inline-block;
+	font-size: var(--font-15);
+	line-height: 30px; 
+	color: var(--white-color);
+	padding: 15px 32px 16px;
+	font-weight: 500;
+	overflow: hidden;
+	background:none;
+	border-radius:15px;
+	text-transform: capitalize;
+	background-color:var(--color-twentyfive);
+	font-family:var(--font-family-barlow);
+	 
+	background-image: -moz-linear-gradient( 33deg, rgb(219,53,178) 0%, rgb(246,63,120) 51%, rgb(249,107,119) 76%, rgb(252,151,118) 100%);
+    background-image: -webkit-linear-gradient( 33deg, rgb(219,53,178) 0%, rgb(246,63,120) 51%, rgb(249,107,119) 76%, rgb(252,151,118) 100%);
+    background-image: -ms-linear-gradient( 33deg, rgb(219,53,178) 0%, rgb(246,63,120) 51%, rgb(249,107,119) 76%, rgb(252,151,118) 100%);
+}
+
+.btn-style-fifteen:before{
+	position: absolute;
+	content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transform: scale(0.2, 1);
+    transform: scale(0.2, 1);
+	position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transform: scale(0.2, 1);
+    transform: scale(0.2, 1);
+    background-image: -moz-linear-gradient( 33deg, rgb(219,53,178) 0%, rgb(246,63,120) 51%, rgb(249,107,119) 76%, rgb(252,151,118) 100%);
+    background-image: -webkit-linear-gradient( 201deg, rgb(219,53,178) 0%, rgb(246,63,120) 51%, rgb(249,107,119) 76%, rgb(252,151,118) 100%);
+    background-image: -ms-linear-gradient( 33deg, rgb(219,53,178) 0%, rgb(246,63,120) 51%, rgb(249,107,119) 76%, rgb(252,151,118) 100%);
+}
+
+.btn-style-fifteen i{
+	position:relative;
+	z-index:1;
+	top:1px;
+	font-style:normal;
+	display:inline-block;
+	font-size:var(--font-20);
+	margin-left:var(--margin-left-5);
+}
+
+.btn-style-fifteen .txt{
+	position:relative;
+	z-index:1;
+}
+
+.btn-style-fifteen:hover::before{
+    opacity: 1;/
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.btn-style-fifteen:hover{
+	color: var(--white-color);
+}
+
+.theme_color{
+	color:var(--white-color-two);
+}
+/***
+
+==================================================================
+	Banner Section Two
+==================================================================
+
+***/
+
+.banner-section-two{
+	position:relative;
+	padding:180px 0px 500px;
+	background-size:cover;
+}
+
+.banner-section-two .content-column{
+	position:relative;
+}
+
+.banner-section-two .content-column .inner-column{
+	position:relative;
+	padding-top:var(--padding-top-40);
+}
+
+.banner-section-two .content-column h1{
+	line-height:72px;
+	color:var(--white-color);
+	font-family:var(--font-family-barlow); 
+    font-size: var(--font-70);
+}
+
+.banner-section-two .content-column h1 span{
+	color:var(--color-twentyseven);
+}
+
+.banner-section-two .content-column .text{
+	opacity:1;
+	color:#999fbb;
+	line-height:30px;
+	font-size:var(--font-20);
+	margin-top:var(--margin-top-40);
+	margin-bottom:var(--margin-bottom-40);
+	font-family:var(--font-family-barlow);
+}
+
+/***
+
+==================================================================
+	Coins Section
+==================================================================
+
+***/
+
+.coins-section{
+	position:relative;
+	padding-bottom:var(--padding-bottom-100);
+}
+
+.coins-section .inner-container{
+	position:relative;
+	margin-top:-390px;
+}
+
+.coins-section .owl-nav{
+	display:none;
+}
+
+.coins-section .owl-dots{
+	position:relative;
+	text-align:center;
+	margin-top:var(--margin-top-20);
+}
+
+.coins-section .owl-dots .owl-dot{
+	position:relative;
+	width:12px;
+	height:12px;
+	margin:0px 5px;
+	border-radius:50px;
+	display:inline-block;
+	background-color:var(--color-twentyfive);
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	transition:all 300ms ease;
+}
+
+.coins-section .owl-dots .owl-dot.active,
+.coins-section .owl-dots .owl-dot:hover{
+	background-color:var(--color-thirtythree);
+}
+
+.coin-block{
+	position:relative;
+	margin-bottom:var(--margin-bottom-30);
+}
+
+.coin-block .inner-box{
+	position:relative;
+	border-radius:20px;
+	padding:30px 35px 165px;
+	background-color:var(--color-thirty);
+	background-position:left bottom;
+	background-repeat:repeat-x;
+}
+
+.coin-block .upper-box{
+	position:relative;
+	padding-left:var(--padding-left-80);
+}
+
+.coin-block .upper-box .coin{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:64px;
+	height:64px;
+	overflow:hidden;
+	border-radius:50%;
+	display:inline-block;
+}
+
+.coin-block .upper-box h4{
+	color:var(--white-color);
+	font-family:var(--font-family-barlow); 
+    font-size: var(--font-24);
+}
+
+.coin-block .upper-box .coin-name{
+	font-weight:700;
+	font-size:var(--font-16);
+	color:var(--color-thirtyone);
+	margin-top:var(--margin-top-5);
+	font-size:var(--font-family-barlow); 
+}
+
+.coin-block .price{
+	position:relative;
+	font-weight:700;
+	line-height:1em;
+	font-size:var(--font-48);
+	color:var(--white-color);
+	margin-top:var(--margin-top-20);
+	font-family:var(--font-family-barlow); 
+}
+
+.coin-block .price sup{
+	position:relative;
+	font-size:var(--font-24);
+	margin-right:var(--margin-right-5);
+}
+
+.coin-block .price sub{
+	position:relative;
+	top:-25px;
+	font-size:var(--font-22);
+	margin-left:var(--margin-left-5);
+	color:var(--color-thirtytwo);
+}
+
+.coin-block .buy-btn{
+	position:relative;
+	font-weight:600;
+	padding:11px 34px;
+	border-radius:6px;
+	font-size:var(--font-15);
+	color:var(--white-color);
+	margin-top:var(--margin-top-30);
+	font-family:var(--font-family-barlow); 
+	background-color:var(--color-twentyfive);
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	transition:all 300ms ease;
+    display: inline-block;
+}
+
+.coin-block .buy-btn:hover{
+	background-color:var(--color-thirtythree);
+}
+
+
+/***
+
+==================================================================
+	Crypto Section
+==================================================================
+
+***/
+
+.crypto-app-section{
+	position:relative;
+	overflow:hidden;
+}
+
+.crypto-app-section .shape-layer-one{
+	position:absolute;
+	left:-135px;
+	top:20%;
+	width:424px;
+	height:458px;
+	background-repeat:no-repeat;
+}
+
+.crypto-app-section .shape-layer-two{
+	position:absolute;
+	right:0px;
+	top:-10%;
+	width:100%;
+	height:1014px;
+	background-position:right center;
+	background-repeat:no-repeat;
+}
+
+.crypto-app-section .content-column{
+	position:relative;
+	margin-bottom:var(--margin-bottom-30);
+}
+
+.crypto-app-section .content-column .inner-column{
+	position:relative;
+}
+
+.crypto-app-section .content-column .options{
+	position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.crypto-app-section .content-column .options li{
+	position:relative;
+	line-height:29px;
+	font-size:var(--font-17);
+	color:var(--color-thirtyfour);
+	padding-left:var(--padding-left-35);
+	margin-bottom:var(--margin-bottom-20);
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-app-section .content-column .options li::before{
+    position: absolute;
+    content: "\f058";
+    left: 0px;
+    top: 1px;
+    font-family: "Font Awesome 5 Free";
+    color: var(--color-thirtyeight);
+}
+
+.crypto-app-section .content-column .options li:last-child{
+	margin-bottom:var(--margin-zero);
+}
+
+.crypto-app-section .content-column .buttons-box{
+	position:relative;
+	margin-top:var(--margin-top-40);
+}
+
+.crypto-app-section .content-column .buttons-box a{
+	position:relative;
+	margin-right:var(--margin-right-15);
+}
+
+.crypto-app-section .content-column .counter-box{
+	position:relative;
+	margin-top:var(--margin-top-60);
+	padding-top:var(--padding-top-60);
+	border-top:1px solid var(--white-color-rgba);
+}
+
+/* Fact Counter */
+
+.crypto-fact-counter{
+	position:relative;
+}
+
+.crypto-fact-counter .counter-column{
+	position:relative;
+	margin-bottom:var(--margin-bottom-30);
+}
+
+.crypto-fact-counter .counter-column .inner{
+	position:relative;
+}
+
+.crypto-fact-counter .counter-column .inner .content{
+	position:relative;
+}
+
+.crypto-fact-counter .count-outer .percentage{
+	position:relative;
+}
+
+.crypto-fact-counter .counter-column .inner .count-outer{
+	position:relative;
+	font-weight:700;
+	line-height:1em;
+	color:var(--white-color);
+	font-size:var(--font-48);
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-fact-counter .counter-column .inner .count-outer i{
+	position:relative;
+	font-style:normal;
+	font-size:var(--font-24);
+	margin-left:var(--margin-left-5);
+	
+	color:var(--color-thirtyfive);
+	background: linear-gradient(to right, var(--color-thirtyfive) 0%, var(--color-thirtysix) 50%, var(--color-thirtyseven) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.crypto-fact-counter .counter-column .inner .counter-title{
+	position:relative;
+	font-weight:400;
+	font-size:var(--font-16);
+	color:var(--color-thirtyfour);
+	margin-top:var(--margin-top-5);
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-app-section .image-column{
+	position:relative;
+	margin-bottom:var(--margin-bottom-30);
+}
+
+.crypto-app-section .image-column .inner-column{
+	position:relative;
+}
+
+.crypto-app-section .image-column .image{
+	position:relative;
+}
+
+.crypto-app-section .image-column .image img{
+	position:relative;
+	max-width:inherit;
+}
+
+
+/*** 
+
+====================================================================
+	Section Title
+====================================================================
+
+***/
+
+.sec-title-two{
+	position:relative;
+	margin-bottom:var(--margin-bottom-40);
+}
+
+.sec-title-two .title{
+	position: relative;
+    font-weight:500;
+	display:inline-block;
+	color:var(--color-thirtyfive);
+	
+	background: linear-gradient(to right, var(--color-thirtyfive) 0%, var(--color-thirtysix) 50%, var(--color-thirtyseven) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+	font-size:var(--font-20);
+	margin-bottom:var(--margin-bottom-15);
+	font-family:var(--font-family-barlow); 
+}
+
+.sec-title-two .text{
+	opacity:1;
+	line-height:29px;
+	font-size:var(--font-18);
+	color:var(--color-thirtyfour);
+	margin-top:var(--margin-top-25);
+	font-family:var(--font-family-barlow); 
+}
+
+.sec-title-two h2{
+	margin-bottom:18px;
+	font-weight:700;
+	font-size:var(--font-60);
+	color:var(--white-color);
+	font-family:var(--font-family-barlow); 
+}
+
+.sec-title-two.light .text,
+.sec-title-two.light h2{
+	color:var(--white-color);
+}
+
+.sec-title-two.light .title{
+	color:var(--white-color);
+	border-color:var(--white-color);
+}
+
+.sec-title-two.centered{
+	text-align: center !important;
+}
+
+
+/***
+
+==================================================================
+	Crypto Market Section
+==================================================================
+
+***/
+
+.crypto-market-section{
+	position:relative;
+	padding:110px 0px;
+	background-size:cover;
+}
+
+.crypto-market-section .inner-container{
+	position:relative;
+	padding:70px 40px 40px;
+	border-radius:25px;
+	border:1px solid var(--white-color-rgba);
+}
+
+.crypto-market-section .content{
+	position:relative;
+	padding-left:430px;
+	padding-right:160px;
+}
+
+.crypto-market-section .market-name{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.crypto-market-section .title{
+	position:relative;
+	font-weight:500;
+	font-size:var(--font-20);
+	color:var(--color-thirtyfour);
+	margin-bottom:var(--margin-bottom-25);
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-market-section .coins-list{
+	position:relative;
+}
+
+.crypto-market-section .coins-list li{
+	position:relative;
+	min-height:50px;
+	font-size:var(--font-24);
+	color:var(--color-thirtyfour);
+	padding-top:var(--padding-top-15);
+	padding-left:var(--padding-left-65);
+	margin-bottom:var(--margin-bottom-20);
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-market-section .coins-list li .icon{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	border-radius:10px;
+	background-color:var(--color-twentyfive);
+}
+
+.crypto-market-section .coins-list li span{
+	position:relative;
+	font-weight:700;
+	color:var(--white-color);
+}
+
+/* Dynamic Box */
+
+.crypto-market-section .dynamic-box{
+	position:absolute;
+	right:0px;
+	top:0px;
+	max-width:150px;
+	width:100%;
+}
+
+.crypto-market-section .dynamic-graph{
+	position:relative;
+}
+
+.crypto-market-section .dynamic-graph li{
+	position:relative;
+	margin-bottom:var(--margin-bottom-15);
+}
+
+/* Price List */
+
+.crypto-market-section .price-box{
+	position:relative;
+	display:inline-block;
+}
+
+.crypto-market-section .price-list{
+	position:relative;
+}
+
+.crypto-market-section .price-list li{
+	position:relative;
+	font-weight:700;
+	font-size:var(--font-24);
+	color:var(--white-color);
+	margin-bottom:var(--margin-bottom-55);
+	font-family:var(--font-family-barlow);
+}
+
+/* Price List */
+
+.crypto-market-section .price-change-box{
+	position:relative;
+	display:inline-block;
+	margin-left:var(--margin-left-180);
+}
+
+.pricing-rates{
+	position:relative;
+	width:160px;
+}
+
+.pricing-rates li.down{
+	background-color:var(--color-fourty);
+}
+
+.pricing-rates li{
+	position:relative;
+	display:block;
+	border-radius:6px;
+	font-size:var(--font-24);
+	color:var(--white-color);
+	padding:12px 25px 12px 15px;
+	margin-bottom:var(--margin-bottom-25);
+	background-color:rgba(var(--color-thirtynine-rgb), 0.80);
+}
+
+.pricing-rates li:before{
+	position:absolute;
+	content:'';
+	right:15px;
+	top:10px;
+	width:25px;
+	height:25px;
+	transform:rotate(-45deg);
+}
+
+.pricing-rates li.down::before{
+	transform:rotate(45deg);
+}
+.crypto-market-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/***
+
+==================================================================
+	Crypto Reward Section
+==================================================================
+
+***/
+
+.crypto-reward-section{
+	position:relative;
+	padding:120px 0px 80px;
+	background-size:cover;
+	background-color:#010615;
+}
+
+.crypto-reward-section .shape-layer-one{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:713px;
+	height:513px;
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+.crypto-reward-section .shape-layer-two{
+	position:absolute;
+	right:0px;
+	bottom:70px;
+	width:300px;
+	height:398px;
+	background-repeat:no-repeat;
+}
+
+.crypto-reward-section .shape-layer-three{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	width:963px;
+	height:776px;
+	background-repeat:no-repeat;
+}
+
+.crypto-reward-section .blocks-column{
+	position:relative;
+	margin-bottom:var(--margin-bottom-30);
+}
+
+.crypto-reward-section .blocks-column .inner-column{
+	position:relative;
+}
+
+.crypto-reward-section .blocks-column .reward-block:nth-child(2n + 0){
+	transform:translateY(60px);
+}
+
+.reward-block{
+	position:relative;
+	z-index:1;
+	margin-bottom:var(--margin-bottom-50);
+}
+
+.reward-block .inner-box{
+	position:relative;
+	text-align:center;
+	overflow:hidden;
+	border-radius:25px;
+	padding:40px 30px 70px;
+	background-color:var(--color-fourtyone);
+}
+
+.reward-block .inner-box .color-one{
+	position:absolute;
+	left:-40px;
+	top:-300px;
+	width:210px;
+	height:248px;
+	opacity:0;
+	border-radius:50px;
+	transform:rotate(-25deg);
+	background-color:var(--color-fourtytwo);
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+}
+
+.reward-block .inner-box .color-two{
+	position:absolute;
+	left:-40px;
+	bottom:-300px;
+	width:210px;
+	height:248px;
+	opacity:0.10;
+	border-radius:50px;
+	transform:rotate(-25deg);
+	background-color:var(--color-fourtytwo);
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+}
+
+.reward-block .inner-box:hover .color-one{
+	top:-40px;
+	opacity:0.10;
+}
+
+.reward-block .inner-box:hover .color-two{
+	opacity:0.10;
+	bottom:-40px;
+}
+
+.reward-block .inner-box:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	bottom:0px;
+	right:0px;
+	width:100%;
+	height:210px;
+	z-index:-1;
+	background-repeat:no-repeat;
+	transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+}
+
+.reward-block .inner-box:hover::before{
+	bottom:-45px;
+}
+
+.reward-block .inner-box .icon{
+	position:relative;
+	width:90px;
+	height:90px;
+	display:block;
+	margin:0 auto;
+	line-height:90px;
+	border-radius:50px;
+	background-color:var(--color-twentyeight);
+}
+
+.reward-block .inner-box .content{
+	position:relative;
+	margin-top:var(--margin-top-40);
+}
+
+.reward-block .inner-box h4{
+	font-weight:600;
+	line-height:36px;
+	color:var(--white-color);
+	font-family:var(--font-family-barlow);
+	transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+}
+
+.reward-block .inner-box:hover h4{
+	opacity:0;
+}
+
+.reward-block .inner-box .text{
+	position:absolute;
+	left:0px;
+	top:0px;
+	right:0px;
+	opacity:0;
+	font-weight:400;
+	line-height:27px;
+	font-size:var(--font-15);
+	color:var(--color-thirtyfour);
+	transform:translateY(20px);
+	font-family:var(--font-family-barlow);
+	transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+}
+
+.reward-block .inner-box:hover .text{
+	opacity:1;
+	transform:translateY(0px);
+}
+
+.crypto-reward-section .content-column{
+	position:relative;
+	margin-bottom:var(--margin-bottom-30);
+}
+
+.crypto-reward-section .content-column .inner-column{
+	position:relative;
+	padding-left:var(--padding-left-100);
+}
+
+.crypto-reward-section .calculation-box{
+	position:relative;
+	margin-top:var(--margin-top-50);
+}
+
+.crypto-reward-section .calculation-box .title{
+	position:relative;
+	font-weight:700;
+	font-size:var(--font-18);
+	color:var(--white-color);
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-reward-section .calculation-box h3{
+	position:relative;
+	font-weight:700;
+	line-height:1em;
+	font-size:var(--font-48);
+	margin-top:var(--margin-top-10);
+	color:var(--color-thirtythree);
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-reward-section .calculation-box .text{
+	position:relative;
+	font-weight:500;
+	opacity:1;
+	font-size:var(--font-18);
+	color:var(--white-color);
+	display:inline-block;
+	margin-top:var(--margin-top-20);
+	padding-top:var(--padding-top-10);
+	font-family:var(--font-family-barlow);
+	border-top:1px solid var(--white-color-rgba);
+}
+
+
+/***
+
+==================================================================
+	Crypto Testimonial Section
+==================================================================
+
+***/
+
+.crypto-testimonial-section{
+	position:relative;
+	overflow:hidden;
+	padding:90px 0px 200px;
+	background-color:#00040f;
+}
+
+.crypto-testimonial-section .shape-layer-one{
+	position:absolute;
+	left:0px;
+	top:-80px;
+	width:735px;
+	height:867px;
+	background-repeat:no-repeat;
+}
+
+.crypto-testimonial-section .carousel-column{
+	position:relative;
+}
+
+.crypto-testimonial-section .carousel-column .inner-column{
+	position:relative;
+	padding-top:var(--padding-top-110);
+	padding-left:var(--padding-left-45);
+}
+
+.crypto-testimonial-section .carousel-column .owl-dots{
+	display:none;
+}
+
+.crypto-testimonial-section .carousel-column .owl-nav{
+	position:relative;
+	margin-top:var(--margin-top-50);
+}
+
+.crypto-testimonial-section .carousel-column .owl-nav .owl-prev{
+	position:relative;
+	width:50px;
+	height:50px;
+	line-height:48px;
+	text-align:center;
+	display:inline-block;
+	border-radius:50px;
+	color:var(--white-color);
+	font-size:var(--font-22);
+	margin-right:var(--margin-right-10);
+	transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+}
+
+.crypto-testimonial-section .carousel-column .owl-nav .owl-next{
+	position:relative;
+	width:50px;
+	height:50px;
+	line-height:48px;
+	text-align:center;
+	display:inline-block;
+	border-radius:50px;
+	color:var(--white-color);
+	font-size:var(--font-22);
+	margin-right:var(--margin-right-10);
+	background-color:var(--color-twentyfive);
+	transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+}
+
+.crypto-testimonial-section .carousel-column .owl-nav .owl-prev:hover{
+	background-color:var(--color-twentyfive);
+}
+
+.crypto-testimonial-block{
+	position:relative;
+}
+
+.crypto-testimonial-block .inner-box{
+	position:relative;
+}
+
+.crypto-testimonial-block .client-logo{
+	position:relative;
+}
+
+.crypto-testimonial-block .client-logo img{
+	position:relative;
+	width:auto;
+}
+
+.crypto-testimonial-block .text{
+	position:relative;
+	font-size:24px;
+	opacity:1;
+	line-height:36px;
+	margin-top:var(--margin-top-25);
+	color:var(--color-fourtyfour);
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-testimonial-block .inner-box .author-info{
+	position:relative;
+	font-size:var(--font-18);
+	color:var(--color-fourtyfive);
+	margin-top:var(--margin-top-30);
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-testimonial-block .inner-box .author-info span{
+	position:relative;
+	font-weight:700;
+	font-size:var(--font-30);
+	color:var(--white-color);
+}
+
+.crypto-testimonial-section .image-column{
+	position:relative;
+}
+
+.crypto-testimonial-section .image-column .inner-column{
+	position:relative;
+	text-align:center;
+	padding-top:var(--padding-top-40);
+	padding-left:var(--padding-left-110);
+}
+
+.crypto-testimonial-section .image-column .image{
+	position:relative;
+	z-index:1;
+}
+
+.crypto-testimonial-section .image-column .circle-layer{
+	position:absolute;
+	left:-10px;
+	top:0px;
+	width:728px;
+	height:725px;
+	background-repeat:no-repeat;
+}
+
+.crypto-testimonial-section .image-column .circle-layer-two{
+	position:absolute;
+	right:4%;
+	top:32%;
+	width:135px;
+	height:135px;
+	overflow:hidden;
+	border-radius:50%;
+}
+
+.crypto-testimonial-section .image-column .circle-layer-three{
+	position:absolute;
+	left:30%;
+	top:15%;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	border-radius:50%;
+}
+
+.crypto-testimonial-section .image-column .authors-outer{
+	position:absolute;
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+}
+
+.crypto-testimonial-section .image-column .authors-outer .author-one{
+	position:absolute;
+	left:15%;
+	top:22%;
+	width:74px;
+	height:75px;
+	overflow:hidden;
+	border-radius:50%;
+}
+
+.crypto-testimonial-section .image-column .authors-outer .author-two{
+	position:absolute;
+	right:-8%;
+	top:17%;
+	width:34px;
+	height:35px;
+	overflow:hidden;
+	border-radius:50%;
+}
+
+.crypto-testimonial-section .image-column .authors-outer .author-three{
+	position:absolute;
+	right:-17%;
+	bottom:8%;
+	width:71px;
+	height:71px;
+	overflow:hidden;
+	border-radius:50%;
+}
+
+.crypto-testimonial-section .image-column .authors-outer .author-four{
+	position:absolute;
+	left:15%;
+	bottom:6%;
+	width:48px;
+	height:48px;
+	overflow:hidden;
+	border-radius:50%;
+}
+
+
+/***
+
+==================================================================
+	Crypto Sponsors Section
+==================================================================
+
+***/
+
+.crypto-sponsors-section{
+	position:relative;
+}
+
+.crypto-sponsors-section .inner-container{
+	position:relative;
+	padding:50px 0px 50px;
+	border-top:1px solid var(--white-color-rgba);
+}
+
+.crypto-sponsors-section .sponsors-outer{
+	position:relative;
+}
+
+.crypto-sponsors-section .sponsors-outer .owl-dots,
+.crypto-sponsors-section .sponsors-outer .owl-nav{
+	position:relative;
+	display:none;
+}
+
+.crypto-sponsors-section .sponsors-outer .image-box{
+	position:relative;
+	text-align:center;
+	margin:var(--margin-zero);
+}
+
+.crypto-sponsors-section .sponsors-outer .image-box img{
+	max-width:100%;
+	width:auto;
+	display:inline-block;
+	
+	opacity:0.3;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	transition:all 300ms ease;
+}
+
+.crypto-sponsors-section .sponsors-outer .image-box img:hover{
+	opacity:1;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+section.crypto-sponsors-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/***
+
+==================================================================
+	Crypto Blog Section
+==================================================================
+
+***/
+
+.crypto-blog-section{
+	position:relative;
+	overflow:hidden;
+	padding:120px 0px 100px;
+}
+
+.crypto-blog-section .view-blog{
+	position:relative;
+	font-weight:700;
+	font-size:var(--font-15);
+	color:var(--white-color);
+	display:inline-block;
+	margin-top:var(--margin-top-10);
+	padding-right:var(--padding-right-25);
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-blog-section .view-blog:before{
+	position:absolute;
+	content:'';
+	right:0px;
+	top:3px;
+	content: "\f1b3";
+	font-family: "flaticon";
+	color:var(--color-twentyseven);
+	transition: .5s;
+}
+.crypto-blog-section .view-blog:hover:before{
+	right:-5px;
+}
+.crypto-blog-section .view-blog:hover{
+	color:var(--color-twentyseven);
+}
+
+.crypto-news-block{
+	position:relative;
+	margin-bottom:var(--margin-bottom-30);
+}
+
+.crypto-news-block .inner-box{
+	position:relative;
+	padding-left:165px;
+	padding-right:80px;
+	min-height:88px;
+}
+
+.crypto-news-block .inner-box .image{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:136px;
+	overflow:hidden;
+	border-radius:10px;
+}
+
+.crypto-news-block .inner-box .post-date{
+	position:relative;
+	font-weight:500;
+	font-size:var(--font-15);
+	color:var(--color-fourtyfour);
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-news-block .inner-box h6{
+	position:relative;
+	margin-top:var(--margin-top-5);
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-news-block .inner-box h6 a{
+	position:relative;
+	font-size:var(--font-18);
+	color:var(--white-color);
+	transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+}
+
+.crypto-news-block .inner-box h6 a:hover{
+	color:var(--color-twentyseven);
+}
+
+/* Crypto Tabs */
+
+.crypto-tabs{
+	position:relative;
+}
+
+.crypto-tabs .tab-btns{
+	position:relative;
+	border-bottom:1px solid var(--white-color-rgba);
+}
+
+.crypto-tabs .tab-btns .tab-btn{
+	position:relative;
+	display:block;
+	float:left;
+	padding-bottom:var(--padding-bottom-10);
+	margin-right:var(--margin-right-30);
+	font-size:var(--font-18);
+	color:var(--white-color);
+	text-transform:uppercase;
+	font-weight:700;
+	line-height:24px;
+	cursor:pointer;
+	transition:all 500ms ease;
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-tabs .tab-btns .tab-btn:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	bottom:-1px;
+	right:0px;
+	opacity:0;
+	height:1px;
+	transform:scale(0.2,1);
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	transition:all 300ms ease;
+	background-color:var(--color-thirtythree);
+}
+
+.crypto-tabs .tab-btns .tab-btn:hover::before,
+.crypto-tabs .tab-btns .tab-btn.active-btn::before{
+	opacity:1;
+	transform:scale(1,1);
+}
+
+.crypto-tabs .tab-btns .tab-btn:last-child{
+	margin-right:var(--margin-zero);
+}
+
+.crypto-tabs .tab-btns .tab-btn:hover,
+.crypto-tabs .tab-btns .tab-btn.active-btn{
+	
+}
+
+.crypto-tabs .tabs-content{
+	position:relative;
+	padding-top:var(--padding-top-30);
+}
+
+.crypto-tabs .tabs-content .tab{
+	position:relative;
+	display:none;
+}
+
+.crypto-tabs .tabs-content .tab.active-tab{
+	display:block;	
+}
+
+.crypto-tabs .tabs-content h5{
+	position:relative;
+	font-weight:500;
+	color:var(--white-color);
+	font-family:var(--font-family-barlow);
+	margin-bottom:var(--margin-bottom-25);
+}
+
+
+.crypto-tabs .tabs-content p{
+	position:relative;
+	opacity:1;
+	color:var(--color-fourtyfour);
+	font-family:var(--font-family-barlow);
+	margin-bottom:var(--margin-bottom-35);
+}
+
+/* All Faq */
+
+.crypto-blog-section .all-faq{
+	position:relative;
+	font-weight:700;
+	font-size:var(--font-15);
+	color:var(--color-fourtyfour);
+	display:inline-block;
+	margin-top:var(--margin-top-10);
+	padding-right:var(--padding-right-25);
+	font-family:var(--font-family-barlow);
+}
+
+.crypto-blog-section .all-faq:before{
+	position:absolute;
+	content:'';
+	right:0px;
+	top:3px;
+	content: "\f1b3";
+	font-family: "flaticon";
+	color:var(--color-twentyseven);
+	transition: .5s;
+}
+
+.crypto-blog-section .all-faq:hover:before{
+	right:-5px;
+}
+
+.crypto-blog-section .all-faq:hover{
+	color:var(--color-twentyseven);
+}
+
+
+/* Custom Animation */
+
+.updown-animate {
+	animation-name: updown;
+	-moz-animation-name: updown;
+	-ms-animation-name: updown;
+	-o-animation-name: updown;
+	animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-ms-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	-o-animation-timing-function: linear; 
+	margin-top: 15px;
+}
+.updown-animate-2 {
+	animation-duration: 4s;
+}
+.zoominup-animate{
+	animation-name: zoominup;
+	-moz-animation-name: zoominup;
+	-ms-animation-name: zoominup;
+	-o-animation-name: zoominup;
+	animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-ms-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	-o-animation-timing-function: linear; 
+}
+.zoominup-animate2{
+	animation-name: zoominup2;
+	-moz-animation-name: zoominup2;
+	-ms-animation-name: zoominup2;
+	-o-animation-name: zoominup2;
+	animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-ms-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	-o-animation-timing-function: linear; 
+}
+@-webkit-keyframes updown {
+	0% {
+		transform: translateY(-30px);
+		-webkit-transform: translateY(-20px);
+	  	-moz-transform: translateY(-20px);
+	  	-ms-transform: translateY(-20px);
+	  	-o-transform: translateY(-20px);
+	}
+	50% {
+		transform: translateY(-15px);
+		-webkit-transform: translateY(-10px);
+	  	-moz-transform: translateY(-10px);
+	  	-ms-transform: translateY(-10px);
+	  	-o-transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(-30px);
+		-webkit-transform: translateY(-20px);
+	  	-moz-transform: translateY(-20px);
+	  	-ms-transform: translateY(-20px);
+	  	-o-transform: translateY(-20px);
+	} 
+}
+@-webkit-keyframes zoominup {
+	0% {
+		transform: scale(1.1);
+	}
+	50% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.1);
+	} 
+}
+@-webkit-keyframes zoominup2 {
+	0% {
+		transform: scale(1.05);
+	}
+	50% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.05);
+	} 
+}
+/* ================ */
+
+@media (max-width: 1199px) {
+	.crypto-market-section {
+		padding: 0;
+	}
+	.banner-section-two {
+		padding-top: 100px;
+	}
+	.banner-section-two .inner-column .image {
+		margin-top: 50px;
+	}
+}
+@media (max-width: 767px) {
+	.banner-section-two .content-column h1 {
+		line-height: 50px;
+		font-size: 40px;
+	}
+	.crypto-testimonial-section {
+		padding-top: 0;
+	}
+	.crypto-testimonial-section .carousel-column .inner-column {
+		padding-top: 0;
+	}
+	.crypto-news-block .inner-box .image {
+		width: 100%;
+		position: unset;
+		margin-bottom: 20px;
+	}
+	.crypto-news-block .inner-box {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.sec-title-two h2 {
+		font-size: 30px !important;
+	}
+	.banner-section-two {
+		padding-top: 20px;
+	}
+}

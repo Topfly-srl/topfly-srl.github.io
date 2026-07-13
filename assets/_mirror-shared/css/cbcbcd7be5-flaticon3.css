@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "flaticon3";
+    src: url("../asset/4f2a52807f-flaticon3.ttf") format("truetype"),
+url("../asset/b4b89f217b-flaticon3.woff") format("woff"),
+url("../asset/f9d538982a-flaticon3.woff2") format("woff2"),
+url("../asset/12868b4c15-flaticon3.eot") format("embedded-opentype"),
+url("../asset/8dd016e7fe-flaticon3.svg") format("svg");
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon3";
+    font-style: normal;
+    src: url("../asset/055cd2b47e-flaticon3.svg") format("svg");
+  }
+}
+
+.flaticon-plus:before {
+    content: "\f101";
+}
+.flaticon-clock:before {
+    content: "\f102";
+}
+.flaticon-tv-4k:before {
+    content: "\f103";
+}
+.flaticon-tv:before {
+    content: "\f104";
+}
+.flaticon-wifi-router:before {
+    content: "\f105";
+}
+.flaticon-wifi:before {
+    content: "\f106";
+}
+.flaticon-check-mark:before {
+    content: "\f107";
+}
+.flaticon-check-mark-1:before {
+    content: "\f108";
+}
+.flaticon-satellite-dish:before {
+    content: "\f109";
+}
+.flaticon-24-hours-phone-service:before {
+    content: "\f10a";
+}
+.flaticon-24-hours:before {
+    content: "\f10b";
+}
+.flaticon-phone:before {
+    content: "\f10c";
+}
+.flaticon-gear:before {
+    content: "\f10d";
+}
+.flaticon-wifi-signal:before {
+    content: "\f10e";
+}
+.flaticon-upload:before {
+    content: "\f10f";
+}
+.flaticon-connection:before {
+    content: "\f110";
+}
+.flaticon-download:before {
+    content: "\f111";
+}
+.flaticon-upload-1:before {
+    content: "\f112";
+}
+.flaticon-upload-2:before {
+    content: "\f113";
+}
+.flaticon-tv-1:before {
+    content: "\f114";
+}
+.flaticon-tv-2:before {
+    content: "\f115";
+}
+.flaticon-watch-tv:before {
+    content: "\f116";
+}
+.flaticon-fast:before {
+    content: "\f117";
+}
+.flaticon-watching-tv:before {
+    content: "\f118";
+}
+.flaticon-fiber:before {
+    content: "\f119";
+}
+.flaticon-4k:before {
+    content: "\f11a";
+}
+.flaticon-bell:before {
+    content: "\f11b";
+}
+.flaticon-credit-card:before {
+    content: "\f11c";
+}
+.flaticon-credit-card-1:before {
+    content: "\f11d";
+}
+.flaticon-management:before {
+    content: "\f11e";
+}
+.flaticon-technical-support:before {
+    content: "\f11f";
+}
+.flaticon-money:before {
+    content: "\f120";
+}
+.flaticon-premium-quality:before {
+    content: "\f121";
+}
+.flaticon-premium-quality-1:before {
+    content: "\f122";
+}
+.flaticon-support:before {
+    content: "\f123";
+}
+.flaticon-solutions:before {
+    content: "\f124";
+}
+.flaticon-plugin:before {
+    content: "\f125";
+}
+.flaticon-web-plugin:before {
+    content: "\f126";
+}
+.flaticon-email:before {
+    content: "\f127";
+}
+.flaticon-email-1:before {
+    content: "\f128";
+}
+.flaticon-right-arrow:before {
+    content: "\f129";
+}
+.flaticon-left-arrow:before {
+    content: "\f12a";
+}
+.flaticon-chat-comment-oval-speech-bubble-with-text-lines:before {
+    content: "\f12b";
+}
+.flaticon-chat:before {
+    content: "\f12c";
+}

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TOPFLY GPS Solutions//Fiere//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fiera-ibe-2026@topflysolutions.com
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261127
+SUMMARY:TOPFLY a IBE – Intermobility and Bus Expo 2026
+DESCRIPTION:24-26 novembre 2026 — Rimini Fiera — https://topflysolutions.com/events/ibe/
+LOCATION:Rimini Fiera
+URL:https://topflysolutions.com/events/ibe/
+END:VEVENT
+END:VCALENDAR

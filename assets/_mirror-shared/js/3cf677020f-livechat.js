@@ -1,0 +1,173 @@
+// @ts-nocheck
+/* -----------------------------------------------------------------------------
+
+
+
+File:           JS Core
+Version:        1.0
+Last change:    00/00/00 
+-------------------------------------------------------------------------------- */
+(function ($) {
+	'use strict';
+    function liveChatActive($scope, $) {
+        $('.sponsors-carousel-live').owlCarousel({
+			loop:true,
+			margin:10,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: 4000,
+			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				480:{
+					items:2
+				},
+				600:{
+					items:3
+				},
+				800:{
+					items:4
+				},
+				1024:{
+					items:5
+				},
+				1200:{
+					items:5
+				}
+			}
+		}); 
+    }
+
+	function liveServiceActive($scope, $) {
+		//Client Testimonial Carousel
+		if ($('.client-serv-carousel').length && $('.client-thumbs-carousel').length) {
+
+			var $sync3 = $(".client-serv-carousel"),
+				$sync4 = $(".client-thumbs-carousel"),
+				flag = false,
+				duration = 500;
+
+				$sync3
+					.owlCarousel({
+						loop:true,
+						items: 1,
+						margin: 0,
+						nav: true,
+						navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
+						dots: true,
+						autoplay: true,
+						autoplayTimeout: 5000
+					})
+					.on('changed.owl.carousel', function (e) {
+						if (!flag) {
+							flag = false;
+							$sync4.trigger('to.owl.carousel', [e.item.index, duration, true]);
+							flag = false;
+						}
+					});
+
+				$sync4
+					.owlCarousel({
+						loop:true,
+						margin:25,
+						items: 1,
+						nav: true,
+						navText: [ '<span class="icon flaticon-left-arrow-2"></span>', '<span class="icon flaticon-next-3"></span>' ],
+						dots: false,
+						center: false,
+						autoplay: true,
+						autoplayTimeout: 5000,
+						responsive: {
+							0:{
+								items:1,
+								autoWidth: false
+							},
+							400:{
+								items:1,
+								autoWidth: false
+							},
+							600:{
+								items:1,
+								autoWidth: false
+							},
+							1000:{
+								items:1,
+								autoWidth: false
+							},
+							1200:{
+								items:1,
+								autoWidth: false
+							}
+						},
+					})
+					
+			.on('click', '.owl-item', function () {
+				$sync3.trigger('to.owl.carousel', [$(this).index(), duration, true]);
+			})
+			.on('changed.owl.carousel', function (e) {
+				if (!flag) {
+					flag = true;		
+					$sync3.trigger('to.owl.carousel', [e.item.index, duration, true]);
+					flag = false;
+				}
+			});
+		}
+	}
+
+	// Testimonial Carousel Four
+	function liveTestimonialActive($scope, $) {
+		$('.testimonial-carousel-four').owlCarousel({
+			//animateOut: 'fadeOut',
+    		//animateIn: 'fadeIn',
+			loop:true,
+			margin:35,
+			nav:true,
+			//autoHeight: true,
+			smartSpeed: 500,
+			autoplay: 6000,
+			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
+			responsive:{
+				0:{
+					items:1,
+					margin:15
+				},
+				600:{
+					items:1,
+					margin:15
+				},
+				800:{
+					items:1,
+					margin:15
+				},
+				1024:{
+					items:2,
+					margin:15
+				},
+				1200:{
+					items:2
+				},
+				1400:{
+					items:2
+				}
+			}
+		});    		
+	}
+	function livechatFilterActive($scope, $) {
+		//Gallery Filters
+		if($('.filter-list').length){
+			$('.filter-list').mixItUp({});
+		}
+	}
+
+
+    $(window).on('elementor/frontend/init', function () {
+        elementorFrontend.hooks.addAction('frontend/element_ready/live-chat-clients.default', liveChatActive);
+        elementorFrontend.hooks.addAction('frontend/element_ready/livechat_service.default', liveServiceActive);
+        elementorFrontend.hooks.addAction('frontend/element_ready/livechat_testimonial.default', liveTestimonialActive);
+        elementorFrontend.hooks.addAction('frontend/element_ready/livechat_chat_portfolio.default', livechatFilterActive);
+    });
+	
+
+})(jQuery);

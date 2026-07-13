@@ -1,0 +1,267 @@
+{
+  "note": "Mappa locale di revisione. Non applicare in produzione senza verifica manuale.",
+  "active": [
+    {
+      "from": "/2024/06/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy."
+    },
+    {
+      "from": "/2025/07/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy."
+    },
+    {
+      "from": "/autisti/tachigrafo-e-infrazioni/",
+      "to": "/tachigrafo-e-infrazioni/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy."
+    },
+    {
+      "from": "/carburante/costi-e-manutenzione/",
+      "to": "/costi-e-manutenzione/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy."
+    },
+    {
+      "from": "/category/banner-home/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Archivio categoria WordPress di servizio, rimosso dal build 2026-07-08 (0 contenuti utili per i visitatori; v. src/lib/category-archives.ts). Redirect all'archivio articoli reale."
+    },
+    {
+      "from": "/category/latest-news/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Archivio categoria WordPress di servizio, rimosso dal build 2026-07-08 (0 contenuti utili per i visitatori; v. src/lib/category-archives.ts). Redirect all'archivio articoli reale."
+    },
+    {
+      "from": "/category/uncategorized/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Archivio categoria WordPress di servizio, rimosso dal build 2026-07-08 (0 contenuti utili per i visitatori; v. src/lib/category-archives.ts). Redirect all'archivio articoli reale."
+    },
+    {
+      "from": "/category/uncategorized/page/1/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Aggiornato 2026-07-08: puntava a /category/uncategorized/ che ora e' a sua volta un redirect (archivio rimosso) — si punta direttamente alla destinazione finale per evitare la catena di 301."
+    },
+    {
+      "from": "/category/uncategorized/page/2/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Paginazione del vecchio archivio categoria WordPress (rimosso dal build 2026-07-08); v. 020-category-uncategorized.json."
+    },
+    {
+      "from": "/category/uncategorized/page/3/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Paginazione del vecchio archivio categoria WordPress (rimosso dal build 2026-07-08); v. 020-category-uncategorized.json."
+    },
+    {
+      "from": "/category/uncategorized/page/4/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Paginazione del vecchio archivio categoria WordPress (rimosso dal build 2026-07-08); v. 020-category-uncategorized.json."
+    },
+    {
+      "from": "/category/uncategorized/page/5/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Paginazione del vecchio archivio categoria WordPress (rimosso dal build 2026-07-08); v. 020-category-uncategorized.json."
+    },
+    {
+      "from": "/category/uncategorized/page/6/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Paginazione del vecchio archivio categoria WordPress (rimosso dal build 2026-07-08); v. 020-category-uncategorized.json."
+    },
+    {
+      "from": "/category/uncategorized/page/7/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Paginazione del vecchio archivio categoria WordPress (rimosso dal build 2026-07-08); v. 020-category-uncategorized.json."
+    },
+    {
+      "from": "/category/uncategorized/page/8/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Paginazione del vecchio archivio categoria WordPress (rimosso dal build 2026-07-08); v. 020-category-uncategorized.json."
+    },
+    {
+      "from": "/elementor-hf/header/",
+      "to": "/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy."
+    },
+    {
+      "from": "/elementor-hf/saas-footer/",
+      "to": "/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy."
+    },
+    {
+      "from": "/esempi-di-applicazioni/2/",
+      "to": "/esempi-di-applicazioni/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy."
+    },
+    {
+      "from": "/events/",
+      "to": "/exhibitions/",
+      "status": 301,
+      "reason": "Cantiere 3: l'indice /events/ (gia' noindex, mai linkato) confluisce nella pagina Exhibitions che ora linka le 10 pagine fiera"
+    },
+    {
+      "from": "/events/6106/",
+      "to": "/events/waste-management-europe/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/waste-management-europe/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/events/ecomondo-2/",
+      "to": "/events/ecomondo/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/ecomondo/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/events/ecomondo-3/",
+      "to": "/events/ecomondo/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/ecomondo/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/events/exhibition-name-5/",
+      "to": "/events/saie/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/saie/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/events/ibe-driving-experience/",
+      "to": "/events/ibe/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/ibe/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/events/ibe-intermobility-and-bus-expo-2/",
+      "to": "/events/ibe/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/ibe/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/events/ibe-intermobility-and-bus-expo-3/",
+      "to": "/events/ibe/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/ibe/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/events/ibe-intermobility-and-bus-expo/",
+      "to": "/events/ibe/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/ibe/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/events/ibe-intermobility-future-ways/",
+      "to": "/events/ibe/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/ibe/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/events/letexpo-2/",
+      "to": "/events/letexpo/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/letexpo/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/events/letexpo-3/",
+      "to": "/events/letexpo/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/letexpo/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/events/translogistica-romania/",
+      "to": "/events/translogistica/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/translogistica/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/events/transpotec-logitec-2/",
+      "to": "/events/transpotec-logitec/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/transpotec-logitec/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/events/transpotec-logitec-3/",
+      "to": "/events/transpotec-logitec/",
+      "status": 301,
+      "reason": "Cantiere 3: pagina-edizione vuota consolidata nella pagina fiera /events/transpotec-logitec/ (vedi reports/events-cantiere3/PIANO.md)"
+    },
+    {
+      "from": "/informativa-sulla-privacy/target=/",
+      "to": "/informativa-sulla-privacy/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy."
+    }
+  ],
+  "excluded": [
+    {
+      "from": "/articoli/2/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy.",
+      "excludeReason": "source-route-already-generated"
+    },
+    {
+      "from": "/articoli/3/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy.",
+      "excludeReason": "source-route-already-generated"
+    },
+    {
+      "from": "/articoli/4/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy.",
+      "excludeReason": "source-route-already-generated"
+    },
+    {
+      "from": "/articoli/5/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy.",
+      "excludeReason": "source-route-already-generated"
+    },
+    {
+      "from": "/articoli/6/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy.",
+      "excludeReason": "source-route-already-generated"
+    },
+    {
+      "from": "/articoli/7/",
+      "to": "/articoli/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy.",
+      "excludeReason": "source-route-already-generated"
+    },
+    {
+      "from": "/case-studies/",
+      "to": "/404-2/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy.",
+      "excludeReason": "source-route-already-generated"
+    },
+    {
+      "from": "/recupero-accise/gruppi-elettrogeni/",
+      "to": "/recupero-accise/gruppi-elettrogeni/",
+      "status": 301,
+      "reason": "Canonical diverso nella mappa SEO: candidato da verificare prima del deploy.",
+      "excludeReason": "source-route-already-generated"
+    }
+  ]
+}

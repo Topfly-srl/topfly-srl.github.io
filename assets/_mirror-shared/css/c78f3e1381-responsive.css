@@ -1,0 +1,109 @@
+/* Ximsa Business HTML Template */
+
+@media only screen and (max-width: 1880px){
+	
+}
+
+@media only screen and (max-width: 1700px){
+	
+}
+
+@media only screen and (max-width: 1340px){
+}
+
+@media only screen and (max-width: 1140px){
+	h1{
+		font-size:var(--font-60);
+	}
+	
+	h2{
+		font-size:var(--font-38);
+	}
+	
+	h3{
+		font-size:var(--font-26);
+	}
+}
+
+
+@media only screen and (max-width: 1200px){
+	
+}
+
+
+@media only screen and (min-width: 768px){
+	
+}
+
+@media only screen and (max-width: 870px){
+	
+	
+	
+}
+
+
+@media only screen and (max-width: 976px){
+	
+	
+	
+}
+	
+@media only screen and (max-width: 1023px){
+	
+	h1{
+		font-size:50px;
+		line-height:1.1em;
+	}
+	
+	h3{
+		font-size:24px;
+	}
+	
+}
+
+@media only screen and (max-width: 767px){
+	
+	.main-slider-three h1,
+	h1{
+		font-size:var(--font-40);
+	}
+	
+	h2{
+		font-size:var(--font-34);
+	}
+	
+	h4{
+		font-size:var(--font-22);
+	}
+}
+
+@media only screen and (max-width: 599px){
+	.main-slider-three h1,
+	h1{
+		font-size:var(--font-30);
+	}
+	
+	h2{
+		font-size:var(--font-28);
+	}
+}
+
+@media (max-width: 600px){
+}
+
+@media only screen and (max-width: 479px) {
+	
+	.main-slider-three h1,
+	h1{
+		font-size:var(--font-22);
+	}
+	
+	h2{
+		line-height:1.3em;
+		font-size:var(--font-26);
+	}
+	
+	h3{
+		font-size:var(--font-22);
+	}
+}
